@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='airgap=\'100mm\' i=\'50A\' misal=\'0mm\''
+		Status=true
+		FileName='VI1CC65956167543945919.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

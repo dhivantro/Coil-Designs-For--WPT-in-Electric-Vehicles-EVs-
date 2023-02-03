@@ -1,0 +1,103 @@
+$begin 'InterrogationCache'
+	Version=1
+	$begin 'ValidationStatus'
+		$begin 'Options'
+			EntityCheckLevel='Strict'
+			IgnoreUnclassifiedObjects=false
+			SkipIntersectionChecks=false
+		$end 'Options'
+		Status=false
+	$end 'ValidationStatus'
+	$begin 'BodyCaches'
+		$begin '357'
+			$begin 'BoundingBox'
+				Low[3: -1, -1, -1]
+				High[3: 290, 141, 5]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '357'
+		$begin '1236'
+			$begin 'BoundingBox'
+				Low[3: -1, 147, -1]
+				High[3: 290, 289, 5]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '1236'
+		$begin '1504'
+			$begin 'BoundingBox'
+				Low[3: -10, -60, -25]
+				High[3: 290, 520, 130]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '1504'
+		$begin '1581'
+			$begin 'BoundingBox'
+				Low[3: -1, -1, 99]
+				High[3: 290, 141, 105]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '1581'
+		$begin '2178'
+			$begin 'BoundingBox'
+				Low[3: -1, 147, 99]
+				High[3: 290, 289, 105]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '2178'
+		$begin '2528'
+			$begin 'BoundingBox'
+				Low[3: -4, -4, -8]
+				High[3: 141, 291, -3]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '2528'
+		$begin '2585'
+			$begin 'BoundingBox'
+				Low[3: -4, -4, 107]
+				High[3: 141, 291, 112]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '2585'
+		$begin '2643'
+			$begin 'BoundingBox'
+				Low[3: -4, -8, -18]
+				High[3: 141, 296, -13]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '2643'
+		$begin '2671'
+			$begin 'BoundingBox'
+				Low[3: -4, -8, 117]
+				High[3: 141, 296, 122]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '2671'
+		$begin '2703'
+			$begin 'BoundingBox'
+				Low[3: -1, 79, 92]
+				High[3: 290, 221, 98]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '2703'
+		$begin '3008'
+			$begin 'BoundingBox'
+				Low[3: -1, 79, 6]
+				High[3: 290, 221, 12]
+				Exact=true
+				Valid=true
+			$end 'BoundingBox'
+		$end '3008'
+	$end 'BodyCaches'
+	$begin 'IntersectionCaches'
+	$end 'IntersectionCaches'
+$end 'InterrogationCache'
