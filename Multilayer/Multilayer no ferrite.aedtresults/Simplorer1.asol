@@ -1,0 +1,60 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002023, month=000000000002, day=000000000008, hour=000000000016, min=000000000008, sec=000000000016)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001439, lin=000000000041, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Twin Builder'
+	CircuitName='Simplorer1'
+	VersionID=0
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=94
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='Cp=\'194nF\' Cs=\'990nF\' f=\'85kHz\' Mx_SS1.misal=\'0mm\' R_load=\'10ohm\'', ID=92)
+		Map(V='Cp=\'194nF\' Cs=\'990nF\' f=\'85kHz\' R_load=\'10ohm\'', ID=93)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=91, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=91, Instance=\'SolutionDefinition\', Solution=90, VersionID=0)'='SolutionBlock2'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	DXasNominal=-1
+	$begin 'SolVars'
+	$end 'SolVars'
+	SolutionName='AC'
+	SolutionID=90
+	V=0
+	$begin 'States'
+		F(VID=92, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SimSetupID=91
+	SimSetupName='AC'
+	VersionID=0
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock3(pos=1346, lin=36, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=766, lin=14, lvl=0)
+		SolutionBlock2(pos=1042, lin=19, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1439, lin=41, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,8 @@
+$begin 'CacheDataVersion'
+	DataVersion=50
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	i='50A'
+	airgap='100mm'
+	misal='0mm'
+$end 'VariableValues'

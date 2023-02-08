@@ -1,0 +1,77 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002023, month=000000000002, day=000000000008, hour=000000000016, min=000000000008, sec=000000000016)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001755, lin=000000000057, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock7'
+	SolutionName='AdaptivePass'
+	SolutionID=161
+	V=732
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock7'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=160, Instance=\'SetupDefinition\', Solution=-1, VersionID=732)'='SolutionBlock9'
+	'SolutionKey(SimSetup=160, Instance=\'SolutionDefinition\', Solution=161, VersionID=732)'='SolutionBlock7'
+	'SolutionKey(SimSetup=160, Instance=\'SolutionDefinition\', Solution=162, VersionID=732)'='SolutionBlock8'
+$end 'BlockMapName'
+$begin 'SolutionBlock8'
+	SolutionName='LastAdaptive'
+	SolutionID=162
+	V=732
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock8'
+$begin 'SolutionBlock9'
+	SimSetupID=160
+	SimSetupName='Setup1'
+	VersionID=732
+	SolveSetupID=0
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock9'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell3DDesign1'
+	VersionID=732
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=761
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='airgap=\'100mm\' i=\'50A\' misal=\'0mm\'', ID=693)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=1397, lin=41, lvl=0)
+		SolutionBlock7(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=618, lin=14, lvl=0)
+		SolutionBlock8(pos=1009, lin=20, lvl=0)
+		SolutionBlock9(pos=1257, lin=33, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1755, lin=57, lvl=0)
+	$end '$index$'
+$end '$index$'
